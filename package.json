@@ -1,0 +1,27 @@
+{
+  "name": "Andy",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "bin": {
+    "Andy": "./index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/krauseAndy/Npx_card.git"
+  },
+  "author": "Andy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/krauseAndy/Npx_card/issues"
+  },
+  "homepage": "https://github.com/krauseAndy/Npx_card#readme",
+  "dependencies": {
+    "boxen": "^2.1.0",
+    "cfonts": "^2.4.0",
+    "terminal-image": "^0.1.2"
+  }
+}
