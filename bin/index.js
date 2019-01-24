@@ -18,7 +18,7 @@ const path = require("path");
         background: 'transparent',
       }).string +
 
-      (await terminalImage.file(path.resolve(__dirname, "data/dbz.jpeg"))) +
+      (await terminalImage.file(path.resolve(__dirname, "../data/dbz.jpeg"))) +
 
       chalk.italic.underline.bold(`\nAndy krause AKA Jin-Rôh\n`) +
       chalk.white.bgBlack(`\n          Junior Web developper at BeCode           `) +
