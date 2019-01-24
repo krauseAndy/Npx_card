@@ -1,14 +1,14 @@
 {
   "name": "andykrause",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
-  "main": "index.js",
+  "main": "./index.js",
   "bin": {
-    "Andy": "./index.js"
+    "andykrause": "./index.js"
   },
   "scripts": {
     "prepare": "npm run build",
-    "build": "node index.js",
+    "build": "node ./index.js",
     "dev": "npm run build && node ./index.js",
     "lint": "standard",
     "test": "echo \"Error: no test specified\" && exit 1"

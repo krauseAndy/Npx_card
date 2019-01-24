@@ -3,7 +3,7 @@
 1. **How to use my visite Card with npx:**
 
 ```
- npx Andy
+ npx andykrause
 ```
 
 2. **Package:**
