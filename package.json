@@ -2,9 +2,9 @@
   "name": "andykrause",
   "version": "1.1.0",
   "description": "",
-  "main": "./index.js",
+  "main": "./bin/index.js",
   "bin": {
-    "andykrause": "./index.js"
+    "andykrause": "./bin/index.js"
   },
   "scripts": {
     "start": "node ./index.js",
@@ -16,7 +16,7 @@
     "url": "git+https://github.com/krauseAndy/Npx_card.git"
   },
   "files": [
-    "data"
+    "data", "bin"
   ],
   "keywords": [
     "card",
