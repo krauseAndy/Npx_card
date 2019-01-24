@@ -5,7 +5,7 @@ const boxen = require("boxen");
 const terminalImage = require("terminal-image");
 const chalk = require("chalk");
 const CFonts = require("cfonts");
-
+const path = require("path");
 
 
 (async () => {
@@ -18,9 +18,7 @@ const CFonts = require("cfonts");
         background: 'transparent',
       }).string +
 
-      (await terminalImage.file("./dbz.jpeg")).catch(error => {
-        console.log(error);
-      }) +
+      (await terminalImage.file(path.resolve(__dirname, "data/dbz.jpeg"))) +
 
       chalk.italic.underline.bold(`\nAndy krause AKA Jin-Rôh\n`) +
       chalk.white.bgBlack(`\n          Junior Web developper at BeCode           `) +
