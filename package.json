@@ -1,10 +1,10 @@
 {
   "name": "andykrause",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "",
   "main": "./index.js",
   "bin": {
-    "andykrause": "./index.js"
+    "bin": "./index.js"
   },
 
   "scripts": {
