@@ -4,7 +4,7 @@
   "description": "",
   "main": "./index.js",
   "bin": {
-    "bin": "./index.js"
+    "andykrause": "./index.js"
   },
 
   "scripts": {
@@ -19,6 +19,9 @@
     "type": "git",
     "url": "git+https://github.com/krauseAndy/Npx_card.git"
   },
+  "files": [
+    "./dbz.jpeg"
+  ],
 
   "keywords": [
     "card",
