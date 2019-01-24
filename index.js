@@ -31,7 +31,8 @@ const CFonts = require("cfonts");
         padding: 1,
         margin: 1,
         borderStyle: "double",
-        align: "center"
+        align: "center",
+        float: "center"
       }
 
     ));

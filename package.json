@@ -13,10 +13,19 @@
     "lint": "standard",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+
   "repository": {
     "type": "git",
     "url": "git+https://github.com/krauseAndy/Npx_card.git"
   },
+  "keywords": [
+    "card",
+    "npm",
+    "npm card",
+    "npx",
+    "npx card",
+    "business card"
+  ],
   "author": "Andy",
   "license": "ISC",
   "bugs": {
