@@ -1,9 +1,10 @@
+#!/usr/bin/env node
+
+
 const boxen = require("boxen");
 const terminalImage = require("terminal-image");
 const chalk = require("chalk");
 const CFonts = require("cfonts");
-
-
 
 
 
