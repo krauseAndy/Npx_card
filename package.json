@@ -19,6 +19,7 @@
     "type": "git",
     "url": "git+https://github.com/krauseAndy/Npx_card.git"
   },
+
   "files": [
     "./dbz.jpeg"
   ],

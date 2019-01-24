@@ -18,7 +18,9 @@ const CFonts = require("cfonts");
         background: 'transparent',
       }).string +
 
-      (await terminalImage.file("./dbz.jpeg")) +
+      (await terminalImage.file("./dbz.jpeg")).catch(error => {
+        console.log(error);
+      }) +
 
       chalk.italic.underline.bold(`\nAndy krause AKA Jin-Rôh\n`) +
       chalk.white.bgBlack(`\n          Junior Web developper at BeCode           `) +
