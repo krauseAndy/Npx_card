@@ -18,7 +18,7 @@
 
 3. **Author:**
 
-   @Andy Krause
+   @Jinroy
 
    > [Github](https://github.com/krauseAndy)
    >

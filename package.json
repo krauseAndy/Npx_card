@@ -1,5 +1,5 @@
 {
-  "name": "Andy",
+  "name": "andy",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -7,6 +7,10 @@
     "Andy": "./index.js"
   },
   "scripts": {
+    "prepare": "npm run build",
+    "build": "node index.js",
+    "dev": "npm run build && node ./index.js",
+    "lint": "standard",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
